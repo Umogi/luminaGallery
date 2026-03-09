@@ -69,7 +69,14 @@ import { LuminaGallery } from "luminagallery";
 
 new LuminaGallery(".js-gallery-item");
 ```
+or
+```javascript
+import { LuminaGallery } from "luminaGallery";
 
+Object.assign(window, {
+    LuminaGallery
+});
+```
 ---
 
 ## Data Attributes
